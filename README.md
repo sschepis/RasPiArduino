@@ -1,6 +1,6 @@
-# RasPiArduino [![Build Status](https://travis-ci.org/me-no-dev/RasPiArduino.svg?branch=master)](https://travis-ci.org/me-no-dev/RasPiArduino)
+# RasPiArduino [![Build Status](https://travis-ci.org/sschepis/RasPiArduino.svg?branch=master)](https://travis-ci.org/sschepis/RasPiArduino)
 
-[![Join the chat at https://gitter.im/me-no-dev/RasPiArduino](https://badges.gitter.im/me-no-dev/RasPiArduino.svg)](https://gitter.im/me-no-dev/RasPiArduino?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/sschepis/RasPiArduino](https://badges.gitter.im/sschepis/RasPiArduino.svg)](https://gitter.im/sschepis/RasPiArduino?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Arduino Framework for RaspberryPI
 ### Features
@@ -17,7 +17,7 @@
 ```bash
 mkdir hardware/RaspberryPi
 cd hardware/RaspberryPi
-git clone https://github.com/me-no-dev/RasPiArduino piduino
+git clone https://github.com/sschepis/RasPiArduino piduino
 ```
 * Download , extract and copy the toolchain to piduino/tools/arm-linux-gnueabihf
   - Windows: [gnutoolchains.com](http://gnutoolchains.com/raspberry/)
@@ -109,7 +109,7 @@ apt-get install telnet git
 
 * Copy all files from tools/arpi_bins to /usr/local/bin
 ```bash
-git clone https://github.com/me-no-dev/RasPiArduino.git piduino
+git clone https://github.com/sschepis/RasPiArduino.git piduino
 chmod +x piduino/tools/arpi_bins/*
 cp piduino/tools/arpi_bins/* /usr/local/bin
 rm -rf piduino
